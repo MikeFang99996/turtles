@@ -37,3 +37,5 @@ def semicircle(size):
         semicircle_1 = semicircle_1 + 1
 
 semicircle(7)
+
+input()
