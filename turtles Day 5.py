@@ -1,6 +1,7 @@
 import turtle
 
 t=turtle.Turtle()
+t.speed(0)
 
 def circle(size):
     circle_1 = 0
@@ -29,13 +30,24 @@ t.left(90)
 t.forward(50)
 t.right(90)
 
-def semicircle(size):
-    semicircle_1 = 0
-    while semicircle_1 < 60
-    t.forward(size)
+def rightsemicircle(size):
+    rightsemicircle_1 = 0
+    while rightsemicircle_1 < 60:
+        t.forward(size)
+        t.right(3)
+        rightsemicircle_1 = rightsemicircle_1 + 1
+
+def leftsemicircle(size):
+    leftsemicircle_1 = 0
+    while leftsemicircle_1 < 60:
+        t.forward(size)
         t.left(3)
-        semicircle_1 = semicircle_1 + 1
+        leftsemicircle_1 = leftsemicircle_1 + 1
 
-semicircle(7)
+rightsemicircle(7)
+leftsemicircle(1)
+leftsemicircle(8.1)
+t.goto(0,240)
 
-input()
+
+input("enter the truth of the world to exit")
